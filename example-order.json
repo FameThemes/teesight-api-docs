@@ -1,72 +1,74 @@
 {
-    "order_id": 0,
-    "status": "",
-    "currency": "USD",
-    "customer_id": 0,
-    "customer_note": "",
-    "billing": {
-        "first_name": "",
-        "last_name": "",
-        "company": "",
-        "address_1": "",
-        "address_2": "",
-        "city": "",
-        "state": "",
-        "postcode": "",
-        "country": "",
-        "email": "",
-        "phone": ""
-    },
-    "shipping": {
-        "first_name": "",
-        "last_name": "",
-        "company": "",
-        "address_1": "",
-        "address_2": "",
-        "city": "",
-        "state": "",
-        "postcode": "",
-        "country": ""
-    },
-    "payment_method": "",
-    "payment_method_title": "",
-    "transaction_id": "",
-    "set_paid": true,
-    "line_items": [
-        {
-            "name": "",
-            "product_size": "",
-            "product_type": "",
-            "product_id": 0,
-            "variation_id": 0,
-            "quantity": 1,
-            "tax_class": "",
-            "subtotal": "",
-            "subtotal_tax": "",
-            "total": "",
-            "total_tax": "",
-            "sku": "",
-            "price": "",
-            "mockup_files": [
-                {
-                    "url": "",
-                    "name": ""
-                },
-                {
-                    "url": "",
-                    "name": ""
-                }
-            ],
-            "print_files": [
-                {
-                    "url": "",
-                    "name": ""
-                },
-                {
-                    "url": "",
-                    "name": ""
-                }
-            ]
-        }
-    ]
+	"order_id": 1234432423423423,
+	"status": "processing",
+	"currency": "USD",
+	"customer_id": 0,
+	"customer_note": "Custom order note.",
+	"billing": {
+		"first_name": "John",
+		"last_name": "Doe",
+		"company": "",
+		"address_1": "969 Market",
+		"address_2": "",
+		"city": "San Francisco",
+		"state": "CA",
+		"postcode": "94103",
+		"country": "US",
+		"email": "john.doe@example.com",
+		"phone": "(555) 555-5555"
+	},
+	"shipping": {
+		"first_name": "John",
+		"last_name": "Doe",
+		"company": "",
+		"address_1": "969 Market",
+		"address_2": "",
+		"city": "San Francisco",
+		"state": "CA",
+		"postcode": "94103",
+		"country": "US"
+	},
+	"payment_method": "bacs",
+	"payment_method_title": "Direct Bank Transfer",
+	"transaction_id": "",
+	"set_paid": true,
+	"line_items": [{
+
+		"id": 315,
+
+		"sku": "EXAMPLE-SKU",
+		"price": 30,
+
+		"name": "Product Name #1",
+		"product_size": "King",
+		"product_type": "quilt-blanket",
+		"product_id": 93,
+		"variation_id": 0,
+		"quantity": 1,
+
+		"tax_class": "",
+		"subtotal": 30,
+		"subtotal_tax": 3,
+		"total": 33,
+		"total_tax": 3,
+
+		"mockup_files": [{
+				"url": "https://via.placeholder.com/800x600.png",
+				"name": ""
+			},
+			{
+				"url": "https://via.placeholder.com/800x600.png",
+				"name": ""
+			}
+		],
+		"print_files": [{
+				"url": "https://via.placeholder.com/800x600.png",
+				"name": ""
+			},
+			{
+				"url": "https://via.placeholder.com/800x600.png",
+				"name": ""
+			}
+		]
+	}]
 }
