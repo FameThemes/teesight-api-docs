@@ -2,7 +2,7 @@
 
 ```php
 
-$url = 'https://teesight.me/wp-json/ts/v1/order';
+$url = 'https://seller.teesight.com/wp-json/ts/v1/order';
 $token =  'a1befc42-d425-46fe-a001-d255553f2d31';
 $order_data = array();
 
@@ -10,7 +10,7 @@ $order_data = array();
 $ch = curl_init();
 curl_setopt( $ch, CURLOPT_URL, $url );
 curl_setopt( $ch, CURLOPT_CUSTOMREQUEST, 'POST');
-curl_setopt( $ch, CURLOPT_POSTFIELDS, json_encode( $order_data ) );  // Post Fields
+curl_setopt( $ch, CURLOPT_POSTFIELDS, json_encode( $order_data ) );
 curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true );
 curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, false );
 
