@@ -27,3 +27,27 @@ var_dump( json_decode(  $server_output, true ) );
 ```
 
 Example order data here https://github.com/shrimp2t/teesight-api-docs/blob/master/example-order.json
+
+
+## Example response data success
+
+
+{
+	"code" : "success",
+	"status" : 200,
+}
+
+
+## Example response data error
+
+{
+	"code" : "error",
+	"error_code" : "error_code",
+	"message" : "Error message",
+	"status" : 200,
+}
+
+
+
+
+
