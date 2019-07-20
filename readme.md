@@ -1,8 +1,12 @@
+## API end point
+LIVE: https://seller.teesight.com/wp-json/ts/v1/order
+TEST: https://server.teesight.com/wp-json/ts/v1/order
+
 ## Submit new order
 
 ```php
 
-$url = 'https://seller.teesight.com/wp-json/ts/v1/order';
+$url = 'https://server.teesight.com/wp-json/ts/v1/order';
 $token =  'a1befc42-d425-46fe-a001-d255553f2d31';
 $order_data = array();
 
