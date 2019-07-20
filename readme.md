@@ -1,4 +1,4 @@
-## Create new order
+## Submit new order
 
 ```php
 
@@ -22,6 +22,7 @@ curl_setopt( $ch, CURLOPT_HTTPHEADER, $headers );
 $server_output = curl_exec( $ch );
 curl_close( $ch );
 
+// Dump respond
 var_dump( json_decode(  $server_output, true ) );
     
 ```
