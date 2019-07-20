@@ -31,22 +31,23 @@ Example order data here https://github.com/shrimp2t/teesight-api-docs/blob/maste
 
 ## Example response data success
 
-
+```json
 {
 	"code" : "success",
 	"status" : 200,
 }
+```
 
 
 ## Example response data error
-
+```json
 {
 	"code" : "error",
 	"error_code" : "error_code",
 	"message" : "Error message",
 	"status" : 200,
 }
-
+```
 
 
 
