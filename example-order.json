@@ -1,73 +1,72 @@
-<?php
-$data = array(
-	'order_id'             => 0,
-	'status'               => '',
-	'currency'             => 'USD',
-	'customer_id'          => 0,
-	'customer_note'        => '',
-	'billing'              => array(
-		'first_name' => '',
-		'last_name'  => '',
-		'company'    => '',
-		'address_1'  => '',
-		'address_2'  => '',
-		'city'       => '',
-		'state'      => '',
-		'postcode'   => '',
-		'country'    => '',
-		'email'      => '',
-		'phone'      => '',
-	),
-	'shipping'             => array(
-		'first_name' => '',
-		'last_name'  => '',
-		'company'    => '',
-		'address_1'  => '',
-		'address_2'  => '',
-		'city'       => '',
-		'state'      => '',
-		'postcode'   => '',
-		'country'    => '',
-	),
-	'payment_method'       => '',
-	'payment_method_title' => '',
-	'transaction_id'       => '',
-	'set_paid'             => true,
-	'line_items'           => array(
-		array(
-			'name'         => '',
-			'product_size' => '',
-			'product_type' => '',
-			'product_id'   => 0,
-			'variation_id' => 0,
-			'quantity'     => 1,
-			'tax_class'    => '',
-			'subtotal'     => '',
-			'subtotal_tax' => '',
-			'total'        => '',
-			'total_tax'    => '',
-			'sku'          => '',
-			'price'        => '',
-			'mockup_files' => array(
-				array(
-					'url'  => '',
-					'name' => '',
-				),
-				array(
-					'url'  => '',
-					'name' => '',
-				),
-			),
-			'print_files'    => array(
-				array(
-					'url'  => '',
-					'name' => '',
-				),
-				array(
-					'url'  => '',
-					'name' => '',
-				),
-			),
-		),
-	),
-);
+{
+    "order_id": 0,
+    "status": "",
+    "currency": "USD",
+    "customer_id": 0,
+    "customer_note": "",
+    "billing": {
+        "first_name": "",
+        "last_name": "",
+        "company": "",
+        "address_1": "",
+        "address_2": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "country": "",
+        "email": "",
+        "phone": ""
+    },
+    "shipping": {
+        "first_name": "",
+        "last_name": "",
+        "company": "",
+        "address_1": "",
+        "address_2": "",
+        "city": "",
+        "state": "",
+        "postcode": "",
+        "country": ""
+    },
+    "payment_method": "",
+    "payment_method_title": "",
+    "transaction_id": "",
+    "set_paid": true,
+    "line_items": [
+        {
+            "name": "",
+            "product_size": "",
+            "product_type": "",
+            "product_id": 0,
+            "variation_id": 0,
+            "quantity": 1,
+            "tax_class": "",
+            "subtotal": "",
+            "subtotal_tax": "",
+            "total": "",
+            "total_tax": "",
+            "sku": "",
+            "price": "",
+            "mockup_files": [
+                {
+                    "url": "",
+                    "name": ""
+                },
+                {
+                    "url": "",
+                    "name": ""
+                }
+            ],
+            "print_files": [
+                {
+                    "url": "",
+                    "name": ""
+                },
+                {
+                    "url": "",
+                    "name": ""
+                }
+            ]
+        }
+    ]
+}
