@@ -1,12 +1,10 @@
+## Create new order
+
 ```php
 
 $url = 'https://teesight.me/wp-json/ts/v1/order';
 $token =  'a1befc42-d425-46fe-a001-d255553f2d31';
-$data = array(
-	'test_token' => 'a1befc42-d425-46fe-a001-d255553f2d31',
-	'password' => '1234xyz',
-	'my_content' => 'Sa Hoang',
-);
+$data = array();
 
 
 $ch = curl_init();
@@ -27,3 +25,5 @@ curl_close( $ch );
 var_dump( json_decode(  $server_output, true ) );
     
 ```
+
+Example order data here https://github.com/shrimp2t/teesight-api-docs/blob/master/example-order.json
