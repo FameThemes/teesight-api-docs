@@ -32,7 +32,7 @@ var_dump( json_decode(  $server_output, true ) );
     
 ```
 
-Example order data here https://github.com/shrimp2t/teesight-api-docs/blob/master/example-order.json
+Example order data here https://github.com/FameThemes/teesight-api-docs/blob/master/example-order.json
 
 
 ## Example response data success
