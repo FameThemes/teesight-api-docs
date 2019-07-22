@@ -55,6 +55,26 @@ Example order data here https://github.com/shrimp2t/teesight-api-docs/blob/maste
 }
 ```
 
+## Example webhook reciever
+When order item tracking code is changed, we will sent a webhook to your site.
+```php
+if ( isset( $_SERVER['HTTP_X_TS_WEBHOOK_SOURCE'] ) && false !== strpos( $_SERVER['HTTP_X_TS_WEBHOOK_SOURCE'], 'teesight' ) ) {
+	$input = @file_get_contents( 'php://input' );
+	$data = wp_parse_args(
+		json_decode( $input, true ), 
+		array(
+			'order_id'      => '',
+			'line_item_id'  => '',
+			'tracking_code' => '',
+			'sent_from'     => '',
+			'action'        => '',
+		) 
+	);
 
+	if ( $data['order_id'] && $data['tracking_code'] ) {
+		// Do your stuff.
+	}
+}
+```
 
 
