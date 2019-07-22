@@ -56,7 +56,9 @@ Example order data here https://github.com/shrimp2t/teesight-api-docs/blob/maste
 ```
 
 ## Example webhook reciever
-When order item tracking code is changed, we will send a webhook to your site. To receive the data, you can follow this code:
+When order item tracking code is changed, we will send a webhook to your site.
+First, go to Orders -> Webhook URL to add your Webhook, see: https://cl.ly/a4be150abe2e 
+To receive the data, you can follow this code:
 ```php
 if ( isset( $_SERVER['HTTP_X_TS_WEBHOOK_SOURCE'] ) && false !== strpos( $_SERVER['HTTP_X_TS_WEBHOOK_SOURCE'], 'teesight' ) ) {
 	$input = @file_get_contents( 'php://input' );
