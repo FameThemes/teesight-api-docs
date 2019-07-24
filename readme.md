@@ -3,6 +3,8 @@ LIVE: https://seller.teesight.com/wp-json/ts/v1/order
 
 TEST: https://server.teesight.com/wp-json/ts/v1/order
 
+To get app token, login to your account then go to Orders -> Webhook URL copy value in field App Token. See https://cl.ly/8261633d0669
+
 ## Submit new order
 
 ```php
