@@ -58,7 +58,7 @@ Example order data here https://github.com/FameThemes/teesight-api-docs/blob/mas
 ```
 
 ## Example webhook reciever
-When order item tracking code is changed, we will send a webhook to your site.
+When an order item tracking code is changed, we will send a webhook to your site.
 
 First, go to Orders -> Webhook URL to add your Webhook, see: https://cl.ly/5c8f48e18696
 
